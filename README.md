@@ -8,9 +8,9 @@ You need to set up your development environment before you can do anything.
 
 Install Node.js and npm (https://nodejs.org/en/download/) if they are not already on your machine.
 
-Then install the Angular CLI globally.
+Then install the Angular 4 node module dependencies for this project.
 
-`npm install -g @angular/cli`
+`npm install`
 
 ## Development server
 
