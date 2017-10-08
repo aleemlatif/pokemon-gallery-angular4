@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+
+# TEAM
+
+	Front End/Angular Developer:    Aleem Latif
+
+
+
+# TECHNOLOGIES
+    HTML5, CSS3, Angular 4, Bootstrap 4
+
+
+
+
+# SITE
+	Language: English

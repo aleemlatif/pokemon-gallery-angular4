@@ -1,14 +1,86 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <title>PokemonGallery</title>
-  <base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- start : meta tags -->
+  <meta http-equiv="X-uA-compatible" content="iE=edge,chrome=1">
+  <meta charset="utf-8">
+
+  <!-- disable browser caching -->
+  <meta http-equiv="cache-control" content="max-age=0">
+  <meta http-equiv="cache-control" content="no-cache">
+  <meta http-equiv="expires" content="0">
+  <meta http-equiv="expires" content="tue, 01 jan 1980 1:00:00 gMT">
+  <meta http-equiv="pragma" content="no-cache">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1,  user-scalable=0, shrink-to-fit=no" >
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Pokemon Gallery">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="author" content="Aleem Latif">
+  <meta name="application-name" content="Pokemon Gallery">
+  <meta name="keywords" content="Pokemon, Gallery, Test">
+  <meta name="description" content="Pokemon Gallery - An Angular 4, Single Page, Responsive application">
+  <base href="/">
+  <meta name="robots" content="index, follow, no archive, noodp, noydir">
+
+  <!-- // end : meta tags -->
+
+  <title>Pokemon Gallery</title>
+
+  <!-- start : fav/touch icons -->
+  	<link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+  <!-- // end : fav/touch icons -->
+
 </head>
-<body>
-  <app-root></app-root>
+
+<!--[if lte IE 8 ]>
+<body class="ie8 lt-ie9 lt-ie10 es-app ng-cloak" data-ng-cloak> <![endif]-->
+<!--[if IE 9 ]>
+<body class="ie9 lt-ie10 es-app ng-cloak" data-ng-cloak> <![endif]-->
+<!--[if (gt IE 9)|!(iE)]><!-->
+<body class="es-app ng-cloak" data-ng-cloak>
+<!--<![endif]-->
+
+<!--[if (gt IE 9)|!(iE)]><!-->
+<div id="main-content">
+  <app-root>
+    <div class="es-spinner-wrap transparent">
+      <div class="es-spinner">
+        <div class="spinner"></div>
+        <p class="_mt-10">Loading...</p>
+        <span class="sr-only">loading the page content</span>
+      </div>
+    </div>
+  </app-root>
+</div>
+<!--<![endif]-->
+
+<!--[if lte IE 9]>
+<p style="text-align:center; border:1px solid #ddd; padding: 20px; margin: 20px; color: #666; background-color: whiteSmoke; border-left-color: #5bc0de;  border-left-width: 5px; border-radius: 5px;">
+  This site does not support internet explorer 9 or earlier. you are using an <strong>outdated</strong> browser.
+  please <a href="http://browsehappy.com/" target="_self" title="upgrade your browser">upgrade your browser</a> to
+  improve your experience.
+</p>
+<![endif]-->
+
 </body>
 </html>
