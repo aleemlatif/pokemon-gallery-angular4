@@ -1,0 +1,49 @@
+//  @ desc:   custom font-faces
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto"), local("Roboto-Light"), url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Roboto"), local("Roboto-Bold"), url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Roboto Condensed"), local("RobotoCondensed-Light"), url("../fonts/Roboto_Condensed/RobotoCondensed-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Roboto Condensed"), local("RobotoCondensed-Bold"), url("../fonts/Roboto_Condensed/RobotoCondensed-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-weight: 100;
+  src: local("FredokaOne Regular"), local("FredokaOne-Regular"), url("../fonts/fredoka-one/FredokaOne-Regular.ttf") format("truetype");
+}

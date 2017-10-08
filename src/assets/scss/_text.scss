@@ -1,0 +1,25 @@
+//  @ desc:   generic text styles
+
+$_font-size-base: 1rem !default;
+$_font-size-lg: 1.25rem !default;
+$_font-size-sm: 0.875rem !default;
+$_font-size-xs: 0.75rem !default;
+
+// Generic text style classes
+._ {
+  &font-size-base {
+    font-size: $_font-size-base;
+  }
+
+  &font-size-lg {
+    font-size: $_font-size-lg;
+  }
+
+  &font-size-sm {
+    font-size: $_font-size-sm;
+  }
+
+  &font-size-xs {
+    font-size: $_font-size-xs;
+  }
+}

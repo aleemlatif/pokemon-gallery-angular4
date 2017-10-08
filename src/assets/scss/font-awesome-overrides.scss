@@ -1,0 +1,56 @@
+/**
+  @ title:  Emerging Systems - Telstra Health
+  @ desc:   All font-awesome Sass overrides can go here
+*/
+
+// generic colors
+$_black: #000000;
+$_black-light: #1c1c1b;
+
+$_white: #ffffff;
+$_smoke-white: #f5f5f5;
+
+$_blue: #0069b4;
+$_dark-blue: #0069B4;
+$_light-blue: #00A7E7;
+
+$_red: #e4022D;
+$_red-light: #ea5555;
+$_red-dark: #c44646;
+
+$_green-dark: #3c763d;
+$_green: #009E4D;
+
+$_grey: #a0AAB2;
+$_grey-mid-5: #666;
+$_grey-darker: #2b3d51;
+$_grey-dark: #515d6e;
+$_grey-light: #e6e9ee;
+$_grey-light: #f4f5f5;
+$_grey-light-2: #e2e2e2;
+$_grey-light-6: #f6F6F6;
+$_grey-dark: #bABABA;
+
+/* components branding colors */
+$_primary: #3F51B5;
+$_success: #4caf50;
+$_info: #2095f2;
+$_warning: #fe9700;
+$_danger: #f34235;
+$_inverse: #363f45;
+$_amber: #fFC107;
+$_pink: #e91e63;
+$_purple: #6639b6;
+$_orange: #eC6606;
+$_noir: #212121;
+
+
+/* Generic color classes */
+._black { color: $_black; }
+._white { color: $_white; }
+._smokewhite { color: $_smoke-white; }
+._blue { color: $_blue; }
+._orange { color: $_orange; }
+
+/* Components specific branding color classes */
+._warning { color: $_warning; }

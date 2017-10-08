@@ -1,0 +1,179 @@
+//  @ desc:   foreground/background colors styles
+
+// Generic color classes
+._ {
+  &black {
+    color: $_black;
+
+    &-light {
+      color: $_black-light;
+    }
+  }
+
+  &white {
+    color: $_white;
+
+    &-smoke {
+      color: $_white-smoke;
+    }
+  }
+
+  &blue {
+    color: $_blue;
+
+    &-light {
+      color: $_blue-light;
+    }
+
+    &-dark {
+      color: $_blue-dark;
+    }
+  }
+
+  &grey {
+    color: $_grey;
+
+    &-light {
+      color: $_grey-light;
+    }
+
+    &-light-1 {
+      color: $_grey-light-1;
+    }
+
+    &-light-2 {
+      color: $_grey-light-2;
+    }
+
+    &-light-3 {
+      color: $_grey-light-3;
+    }
+
+    &-medium {
+      color: $_grey-medium;
+    }
+
+    &-dark {
+      color: $_grey-dark;
+    }
+
+    &-dark-1 {
+      color: $_grey-dark-1;
+    }
+
+    &-dark-2 {
+      color: $_grey-dark-2;
+    }
+  }
+
+  &red {
+    color: $_red;
+
+    &-light {
+      color: $_red-light;
+    }
+
+    &-dark {
+      color: $_red-dark;
+    }
+  }
+
+  &green {
+    color: $_green;
+
+    &-light {
+      color: $_green-light;
+    }
+
+    &-dark {
+      color: $_green-dark;
+    }
+  }
+
+  // Components specific text color theme classes
+  &primary {
+    color: $_primary;
+  }
+
+  &success {
+    color: $_success;
+  }
+
+  &info {
+    color: $_info;
+  }
+
+  &warning {
+    color: $_warning;
+  }
+
+  &danger {
+    color: $_danger;
+  }
+
+  &inverse {
+    color: $_inverse;
+  }
+
+  &amber {
+    color: $_amber;
+  }
+
+  &pink {
+    color: $_pink;
+  }
+
+  &purple {
+    color: $_purple;
+  }
+
+  &orange {
+    color: $_orange;
+  }
+
+  &noir {
+    color: $_noir;
+  }
+
+  // Background color theme classes
+  &primary-bg {
+    background-color: $_primary;
+  }
+
+  &success-bg {
+    background-color: $_success;
+  }
+
+  &info-bg {
+    background-color: $_info;
+  }
+
+  &warning-bg {
+    background-color: $_warning;
+  }
+
+  &danger-bg {
+    background-color: $_danger;
+  }
+
+  // generic colored backgrounds
+  &grey-bg {
+    background-color: $_grey;
+  }
+
+  &grey-bg-light {
+    background-color: $_grey-light;
+  }
+
+  &grey-bg-light-1 {
+    background-color: $_grey-light-1;
+  }
+
+  &grey-bg-light-2 {
+    background-color: $_grey-light-2;
+  }
+
+  &grey-bg-light-3 {
+    background-color: $_grey-light-3;
+  }
+}
