@@ -2,8 +2,8 @@ import {Injectable} from '@angular/core';
 import {RequestOptions, Response, Http, URLSearchParams} from '@angular/http';
 import {Observable} from 'rxjs/Observable';
 
-import {HttpService} from './../common/http.service';
-import {WindowRef} from './../common/window-ref.service';
+import {HttpService} from './http.service';
+import {WindowRef} from './window-ref.service';
 
 @Injectable()
 export class CommonService {
