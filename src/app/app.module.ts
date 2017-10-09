@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
@@ -23,7 +24,8 @@ import { IAppConstants } from './constants/app.constants.interface';
     ErrorComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
   providers: [ { provide: APP_CONSTANTS_TOKEN, useValue: APP_CONSTANTS },
     HttpService,
