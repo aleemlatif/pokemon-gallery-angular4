@@ -1,4 +1,4 @@
-# Pokemon Gallery - An angular-4, boostrap-4 based single-page & responsive app
+# Pokemon Gallery - An angular4, boostrap4 based singlepage, responsive app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
 
