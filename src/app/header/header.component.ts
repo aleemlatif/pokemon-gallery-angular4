@@ -5,7 +5,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 @Component({
-  selector: 'header',
+  selector: 'app-header',
   templateUrl: 'header.component.html'
 })
 
@@ -31,7 +31,7 @@ export class HeaderComponent {
 
   public getJSON(): Observable<any> {
     return this.http.get(this.configUrl)
-      .map((res: any) => res.json())
+      .map((res: any) => res.json());
 
   }
 }

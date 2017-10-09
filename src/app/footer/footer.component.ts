@@ -5,7 +5,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 @Component({
-  selector: 'footer',
+  selector: 'app-footer',
   templateUrl: 'footer.component.html'
 })
 
