@@ -1,0 +1,32 @@
+app-footer {
+  border-top: 1px solid #e2e2e2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: $textColor;
+  font-size: 16px;
+  padding: 20px 0;
+
+  .logo {
+    opacity: .5;
+
+    img {
+      width: 100px;
+      display: inline-block;
+      vertical-align: bottom;
+      margin-right: 10px;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+  }
+
+  a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: #333;
+  }
+}

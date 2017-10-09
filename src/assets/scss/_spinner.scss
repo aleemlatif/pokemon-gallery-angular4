@@ -1,7 +1,7 @@
 // @ desc: CSS spinner for AJAX calls
 
 // custom spinner
-.es-spinner-wrap {
+.spinner-wrap {
   position: fixed;
   top: 0;
   left: 0;
@@ -16,7 +16,7 @@
     opacity: 1;
   }
 
-  .es-spinner {
+  .spinner {
     top: calc(50% - 25px);
     left: calc(50% - 25px);
     position: absolute;
