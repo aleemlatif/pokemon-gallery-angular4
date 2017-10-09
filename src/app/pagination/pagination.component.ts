@@ -31,11 +31,11 @@ export class PaginationComponent implements OnInit {
 
   ngOnInit() {
     // get dummy data
-    this.http.get('http://pokeapi.co/api/v2/pokemon?limit=151')
+    this.http.get('https://pokeapi.co/api/v2/pokemon?limit=151')
       .map((response: Response) => response.json())
       .subscribe(data => {
         // set items to json response
-        this.allItems = data;
+        this.allItems = data.results;
 
         // initialize to page 1
         this.setPage(1);

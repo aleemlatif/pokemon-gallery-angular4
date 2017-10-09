@@ -1,20 +1,20 @@
 ﻿import * as _ from 'underscore';
 
 export class PagerService {
-    getPager(totalItems: number, currentPage: number = 1, pageSize: number = 10) {
+    getPager(totalItems: number, currentPage: number = 1, pageSize: number = 12) {
         // calculate total pages
         const totalPages = Math.ceil(totalItems / pageSize);
 
         let startPage: number, endPage: number;
-        if (totalPages <= 10) {
-            // less than 10 total pages so show all
+        if (totalPages <= 12) {
+            // less than 12 total pages so show all
             startPage = 1;
             endPage = totalPages;
         } else {
-            // more than 10 total pages so calculate start and end pages
+            // more than 12 total pages so calculate start and end pages
             if (currentPage <= 6) {
                 startPage = 1;
-                endPage = 10;
+                endPage = 12;
             } else if (currentPage + 4 >= totalPages) {
                 startPage = totalPages - 9;
                 endPage = totalPages;
