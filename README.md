@@ -1,4 +1,4 @@
-# Pokemon Gallery - Angular4 App
+# Pokemon Gallery - Angular-4 - Single Page & Responsive App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
 
@@ -6,9 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 You need to set up your development environment before you can do anything.
 
+Checkout the code into a folder from the github repository from https://github.com/aleemlatif/pokemon-gallery-angular4.git
+
 Install Node.js and npm (https://nodejs.org/en/download/) if they are not already on your machine.
 
-Then install the Angular 4 node module dependencies for this project.
+Then install the Angular 4 node module dependencies for this project by executing the following command.
 
 `npm install`
 
