@@ -14,7 +14,11 @@ Then install the Angular 4 node module dependencies for this project by executin
 
 `npm install`
 
-## Development server
+## Run the app
+
+Run `ng serve --open` which will open the app in the default browser at `http://localhost:4200/`.
+
+OR
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 

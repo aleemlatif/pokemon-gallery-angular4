@@ -5,12 +5,12 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
 
 @Component({
-  selector: 'footer',
-  templateUrl: 'footer.component.html'
+  selector: 'header',
+  templateUrl: 'header.component.html'
 })
 
 @Injectable()
-export class FooterComponent {
+export class HeaderComponent {
   public appConfigs: any = {};
   public configUrl = './assets/data/appConfigs.json';
 
