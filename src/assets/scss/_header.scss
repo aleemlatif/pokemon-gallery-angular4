@@ -1,32 +1,29 @@
-app-header {
+header{
   border-bottom: 1px solid #e2e2e2;
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: #fff;
+  background-color: #ff0204;
   color: $textColor;
   font-size: 16px;
   padding: 20px 0;
+  height: 390px;
 
-  .logo {
-    opacity: .5;
+  .circle {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    position: relative;
+    top: -30px;
+    margin: 0 auto;
 
     img {
-      width: 100px;
-      display: inline-block;
-      vertical-align: bottom;
-      margin-right: 10px;
+      position: absolute;
+      fill: #ffffff;
+      top: 35px;
+      left: 30px;
+      width: 45px;
     }
   }
 
-  a {
-    text-decoration: none;
-    color: #333;
-    font-size: 14px;
-  }
-
-  a:hover, a:active, a:focus {
-    text-decoration: none;
-    color: #333;
-  }
-}
+ }

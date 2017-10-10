@@ -1,6 +1,7 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {HttpModule} from '@angular/http';
+import {FormsModule} from '@angular/forms';
 
 import {AppComponent} from './app.component';
 import {HttpService} from './common/services/http.service';
@@ -28,7 +29,8 @@ import {IAppConstants} from './constants/app.constants.interface';
   ],
   imports: [
     BrowserModule,
-    HttpModule
+    HttpModule,
+    FormsModule
   ],
   providers: [{provide: APP_CONSTANTS_TOKEN, useValue: APP_CONSTANTS},
     HttpService,
