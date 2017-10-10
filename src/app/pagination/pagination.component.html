@@ -15,34 +15,31 @@
 
 <!-- start : items list -->
 <div class="list-group">
-  <div class="row list-group-item ">
+  <div class="row  no-gutters list-group-item ">
+
+    <div *ngFor="let item of items; let i =index"  class="col-12  col-sm-6 col-md-4 col-lg-3 col-xl-3 border-1">
+
+      <div class="d-flex justify-content-center align-items-center">
 
 
-    <div *ngFor="let item of items; let i =index"
-         class="col-12  col-sm-6 col-md-6 col-lg-3 col-xl-3">
+        <div class="row  no-gutters h-100">
 
-      <div class="d-flex justify-content-center">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-6 d-flex flex-column">
 
-
-        <div class="row">
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6">
-
-            <a [href]="item.url" target="_blank">
+            <a [href]="item.url" target="_blank" class="text-center">
               <!-- start : pokemon image icon -->
               <img class="align-middle" alt="{{item.name}} icon" src="assets/images/icons/{{i+1}}.png">
               <!-- // end : pokemon image icon -->
             </a>
           </div>
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-6 col-6">
+
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-6">
 
             <!-- start : pokemon number/name -->
-
-            <a [href]="item.url" target="_blank">
+            <a [href]="item.url" target="_blank" class="text-center">
               <h5>#{{i+1}}</h5>
               <h4>{{item.name}}</h4>
-
             </a>
-
             <!-- // end : pokemon number/name -->
 
           </div>
