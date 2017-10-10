@@ -11,6 +11,7 @@ import 'rxjs/add/operator/catch';
 
 @Injectable()
 export class HeaderComponent {
+  @Input() appTitle: string;
   public appConfigs: any = {};
   public configUrl = './assets/data/appConfigs.json';
 

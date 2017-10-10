@@ -16,6 +16,7 @@ import { PagerService } from './../common/services/pager.service';
 @Injectable()
 export class PaginationComponent implements OnInit {
   public appConfigs: any = {};
+  public searchInput = '';
   public configUrl = './assets/data/appConfigs.json';
 
   constructor(private http: Http, private pagerService: PagerService) { }
