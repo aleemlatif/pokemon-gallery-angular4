@@ -38,10 +38,15 @@ export class PaginationComponent  {
     this.http.get(this.apiUrl)
       .map((response: Response) => response.json())
       .subscribe(data => {
+
+        console.log('this.filteredItems :  ', this.filteredItems, ' this.productList :  ', this.productList);
+
         // set items to json response
         this.productList = data.results;
 
         this.filteredItems = this.productList;
+
+       // console.log('this.filteredItems :  ', this.filteredItems, ' this.productList :  ', this.productList);
 
         this.init();
 
