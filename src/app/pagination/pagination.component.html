@@ -1,9 +1,9 @@
 <!-- start : search bar -->
-<div class="row justify-content-end mt-5">
+<div class="row justify-content-end" style="margin-top: 130px">
   <div class=" col-12 col-sm-8 col-md-6 col-lg-4">
     <div class="input-group">
       <input type="text" class="form-control" id="inputName" [(ngModel)]="inputName" placeholder="Search Pockemon..."
-             aria-label="Search Pockemon input field">
+             aria-label="Search any pockemon">
 
       <span class="input-group-btn">
         <button class="btn btn-primary" (click)="FilterByName()" type="button">Go!</button>
@@ -31,6 +31,7 @@
               <img class="align-middle" alt="{{item.name}} icon" src="assets/images/icons/{{i+1}}.png">
               <!-- // end : pokemon image icon -->
             </a>
+
           </div>
 
           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-6">
@@ -46,7 +47,6 @@
         </div>
 
       </div>
-
 
     </div>
   </div>

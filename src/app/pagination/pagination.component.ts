@@ -21,16 +21,16 @@ export class PaginationComponent  {
   public configUrl = './assets/data/appConfigs.json';
   public apiUrl = 'https://pokeapi.co/api/v2/pokemon?limit=151';
 
-  productList: Product[];
-  filteredItems: Product[];
-  pages: number = 8;
-  pageSize: number = 20;
-  pageNumber: number = 0;
-  currentIndex: number = 1;
+  productList: Product[] = [];
+  filteredItems: Product[] = [];
   items: Product[];
+  pages  = 8;
+  pageSize = 20;
+  pageNumber = 0;
+  currentIndex = 1;
   pagesIndex: Array<number>;
-  pageStart: number = 1;
-  inputName: string = '';
+  pageStart = 1;
+  inputName = '';
 
   constructor(private http: Http, private pagerService: PagerService) {
 
