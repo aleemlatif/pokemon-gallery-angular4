@@ -1,6 +1,6 @@
 import {Component, Input, Injectable, OnInit} from '@angular/core';
 import {Http, Response, Headers, RequestOptions} from '@angular/http';
-import { Form, FormGroup, FormControl, FormBuilder, Validators } from '@angular/forms';
+import {Form, FormGroup, FormControl, FormBuilder, Validators} from '@angular/forms';
 import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/catch';
@@ -16,7 +16,7 @@ import {PagerService} from './../common/services/pager.service';
 })
 
 @Injectable()
-export class PaginationComponent  {
+export class PaginationComponent {
   public appConfigs: any = {};
   public configUrl = './assets/data/appConfigs.json';
   public apiUrl = 'https://pokeapi.co/api/v2/pokemon?limit=151';
@@ -24,7 +24,7 @@ export class PaginationComponent  {
   productList: Product[] = [];
   filteredItems: Product[] = [];
   items: Product[];
-  pages  = 8;
+  pages = 8;
   pageSize = 20;
   pageNumber = 0;
   currentIndex = 1;
@@ -39,14 +39,13 @@ export class PaginationComponent  {
       .map((response: Response) => response.json())
       .subscribe(data => {
 
-        console.log('this.filteredItems :  ', this.filteredItems, ' this.productList :  ', this.productList);
+        // assign 'id' value from the array index for each record
+        _.forEach(data.results, function (arrayVal, arrayIndex) {
+            arrayVal.id = arrayIndex;
+        });
 
-        // set items to json response
         this.productList = data.results;
-
         this.filteredItems = this.productList;
-
-       // console.log('this.filteredItems :  ', this.filteredItems, ' this.productList :  ', this.productList);
 
         this.init();
 

@@ -4,13 +4,13 @@ header {
   left: 0;
   width: 100%;
   height: 100px;
-  background-color: #d40c14;
+  background-color: #FF0204;
   color: white;
   font-size: 16px;
   border-bottom: 30px solid #040404;
 
   .app-title {
-    margin: 20px;
+    margin: 1em 0 0 1em;
     font-size: 1.5em;
   }
 
@@ -19,88 +19,47 @@ header {
     position: relative;
     background: #000;
     border-radius: 50%;
-    height: 142px;
-    width: 142px;
+    height: 20vh;
+    width: 20vh;
     margin: 0 auto;
-    top: -20px;
+    top: -15px;
 
     #inner-circle-1 {
       position: absolute;
       background: #fff;
       border-radius: 50%;
-      right: 15px;
-      left: 15px;
-      top: 15px;
-      bottom: 15px;
+      right: 3vh;
+      left: 3vh;
+      top: 3vh;
+      bottom: 3vh;
 
       #inner-circle-2 {
         position: absolute;
         background: #fff;
-        border-radius: 75%;
-        right: 10px;
-        left: 10px;
-        top: 10px;
-        bottom: 10px;
+        border-radius: 50%;
+        right: 1.5vh;
+        left: 1.5vh;
+        top: 1.5vh;
+        bottom: 1.5vh;
 
         #inner-circle-3 {
           position: absolute;
           background: #000;
           border-radius: 50%;
-          right: 5px;
-          left: 5px;
-          top: 5px;
-          bottom: 5px;
-        }
-      }
-    }
-  }
+          top: 0.5vh;
+          right: 0.5vh;
+          bottom: 0.5vh;
+          left: 0.5vh;
 
-  // single div nested circles
-  .circle {
-    height: 5.5em;
-    width: 5.5em;
-    background-color: black;
-    border: 10px solid white;
-    box-shadow: 0 0 0 12px black;
-    border-radius: 50%;
-
-    &:after {
-      position: relative;
-      background: #fff;
-      border-radius: 50%;
-      height: 3.5em;
-      width: 3.5em;
-      z-index: 10;
-    }
-  }
-
-  // nested divs nested circle
-  .nested-circle {
-    background: #000000;
-    border-radius: 50%;
-    margin: 0 auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    .b_circle {
-      background: #ffffff;
-      width: 70vh;
-      height: 70vh;
-
-      .m_circle {
-        background: #000;
-        width: 50vh;
-        height: 50vh;
-        margin: 10vh;
-
-        .s_circle {
-          background: #fff;
-          width: 35vh;
-          height: 35vh;
-          margin: 7.5vh;
+          #inner-circle-4 {
+            position: absolute;
+            background: #fff;
+            border-radius: 50%;
+            top: 0.5vh;
+            right: 0.5vh;
+            bottom: 0.5vh;
+            left: 0.5vh;
+          }
         }
       }
     }

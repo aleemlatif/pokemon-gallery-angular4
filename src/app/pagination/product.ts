@@ -3,7 +3,7 @@ export class Product {
     public id: number = 0,
     public url: string,
     public name: string
-  ){
+  ) {
 
   }
 }
