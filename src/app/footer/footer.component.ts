@@ -31,7 +31,6 @@ export class FooterComponent {
 
   public getJSON(): Observable<any> {
     return this.http.get(this.configUrl)
-      .map((res: any) => res.json())
-
+      .map((res: any) => res.json());
   }
 }
