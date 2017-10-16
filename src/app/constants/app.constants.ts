@@ -17,24 +17,7 @@ export const APP_CONSTANTS: IAppConstants = {
         logout: 'Log Out',
         menu: 'Menu',
         opensInNewWindow: '<span class="sr-only">opens in new window</span></a>',
-        opensInNewApp: '<span class="sr-only">opens in new application</span></a>',
-        feedback: {
-            label: 'Feedback',
-            form: {
-                name: {
-                    label: 'Your Name',
-                    id: 'name'
-                },
-                email: {
-                    label: 'Your Email Address',
-                    id: 'emailAdd'
-                },
-                enquiry: {
-                    label: 'Your Enquiry or Feedback',
-                    id: 'enquiry'
-                }
-            }
-        }
+        opensInNewApp: '<span class="sr-only">opens in new application</span></a>'
     },
 
     errorTexts: {

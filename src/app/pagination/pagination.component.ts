@@ -41,7 +41,7 @@ export class PaginationComponent {
 
         // assign 'id' value from the array index for each record
         _.forEach(data.results, function (arrayVal, arrayIndex) {
-            arrayVal.id = arrayIndex;
+            arrayVal.id = arrayIndex + 1;
         });
 
         this.productList = data.results;
