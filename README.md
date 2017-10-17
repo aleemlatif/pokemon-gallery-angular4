@@ -9,13 +9,14 @@ You need to set up your development environment before you can do anything.
 Clone or fork this repository:
 
 `git clone https://github.com/aleemlatif/pokemon-gallery-angular4.git`
-`cd angular4-seed`
+
+`cd pokemon-gallery-angular4`
 
 Install Node.js and npm (https://nodejs.org/en/download/) if they are not already on your machine.
 
 Then install the Angular 4 node module dependencies for this project by executing the following command.
 
-`npm install`
+`npm install` OR  `npm i`
 
 ## Run the app
 

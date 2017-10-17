@@ -15,7 +15,7 @@
 
 <!-- start : items list -->
 <div class="list-group">
-  <div class="row  no-gutters list-group-item ">
+  <div class="row  no-gutters list-inline-item list-group-item ">
 
     <div *ngFor="let item of items; let i =index" class="col-12  col-sm-6 col-md-4 col-lg-3 col-xl-3 border-1">
 
@@ -24,7 +24,7 @@
 
         <div class="row  no-gutters h-100">
 
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-6 d-flex flex-column">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-6 d-flex flex-column my-auto">
 
             <a [href]="item.url" target="_blank" class="text-center">
               <!-- start : pokemon image icon -->
@@ -34,7 +34,7 @@
 
           </div>
 
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-6 d-flex flex-column align-items-center">
+          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-6 my-auto">
 
             <!-- start : pokemon number/name -->
             <a [href]="item.url" target="_blank" class="text-center">
